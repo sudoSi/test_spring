@@ -12,7 +12,7 @@ import javax.persistence.OneToMany;
 public class Etudiant implements Serializable{
 	@Id @GeneratedValue
 	private Long Id;
-	// new line bien
+	// new line bien an other new comment
 	private String nom;
 	private int nbr_pers;
 	@ManyToOne
